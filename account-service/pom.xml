@@ -78,9 +78,6 @@
         <repository>
             <id>github</id>
             <url>https://maven.pkg.github.com/lekhacanhdai/blog-account-service</url>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
         </repository>
     </repositories>
     <distributionManagement>
