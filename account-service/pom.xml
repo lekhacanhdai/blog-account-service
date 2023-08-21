@@ -50,7 +50,7 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.blog.account</groupId>
+            <groupId>com.blog</groupId>
             <artifactId>account-grpc</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
@@ -70,6 +70,26 @@
             <version>${cloud-config.version}</version>
         </dependency>
     </dependencies>
+    <repositories>
+        <repository>
+            <id>maven</id>
+            <url>https://repo.maven.apache.org/maven2/</url>
+        </repository>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/lekhacanhdai/blog-account-service</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>Blog Account Service</name>
+            <url>https://maven.pkg.github.com/lekhacanhdai/blog-account-service</url>
+        </repository>
+    </distributionManagement>
     <dependencyManagement>
         <dependencies>
             <dependency>
