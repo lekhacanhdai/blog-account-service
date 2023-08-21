@@ -9,7 +9,7 @@ pipeline {
             agent {
                 docker {
                     image 'maven:3.6.3-jdk-11'
-                    args '-v /home/jenkins/.m2:/home/jenkins/.m2 --network=host'
+                    args '-v /root/.m2:/root/.m2'
                     reuseNode true
                 }
             }
@@ -23,7 +23,7 @@ pipeline {
             agent {
                 docker {
                     image 'maven:3.6.3-jdk-11'
-                    args '-v /home/jenkins/.m2:/home/jenkins/.m2 --network=host'
+                    args '-v /root/.m2:/root/.m2'
                     reuseNode true
                 }
             }
