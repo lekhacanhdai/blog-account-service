@@ -19,7 +19,7 @@ pipeline {
                 }
             }
         }
-        stage("Proto Build") {
+        stage("Maven Build") {
             agent {
                 docker {
                     image 'maven:3.6.3-jdk-11'
