@@ -34,8 +34,8 @@ pipeline {
             }
         }
         stage("Docker build") {
-            dir('account-service'){
-                steps {
+            steps {
+                dir('account-service'){
                     sh 'docker build -t anhdai0801/blog-account-service:latest .'
                 }
             }
