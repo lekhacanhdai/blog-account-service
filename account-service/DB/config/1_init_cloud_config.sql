@@ -1,0 +1,14 @@
+set search_path to appconfig;
+
+insert into ms_properties (propertyid, application, profile, "label", "key", value, description, createddate, updateddate) values (1, 'account-service', 'default', 'master', 'server.port', '8002', null, now(), now());
+insert into ms_properties (propertyid, application, profile, "label", "key", value, description, createddate, updateddate) values (2, 'account-service', 'default', 'master', 'grpc.server.port', '8102', null, now(), now());
+insert into ms_properties (propertyid, application, profile, "label", "key", value, description, createddate, updateddate) values (3, 'account-service', 'default', 'master', 'spring.datasource.driver-class-name', 'org.postgresql.Driver', null, now(), now());
+insert into ms_properties (propertyid, application, profile, "label", "key", value, description, createddate, updateddate) values (4, 'account-service', 'default', 'master', 'spring.datasource.url', 'jdbc:postgresql://localhost:5555/accountservice', null, now(), now());
+insert into ms_properties (propertyid, application, profile, "label", "key", value, description, createddate, updateddate) values (5, 'account-service', 'default', 'master', 'spring.datasource.hikari.schema', 'myblog', null, now(), now());
+insert into ms_properties (propertyid, application, profile, "label", "key", value, description, createddate, updateddate) values (6, 'account-service', 'default', 'master', 'spring.datasource.username', 'postgres', null, now(), now());
+insert into ms_properties (propertyid, application, profile, "label", "key", value, description, createddate, updateddate) values (7, 'account-service', 'default', 'master', 'spring.datasource.password', 'Dakhung0801@', null, now(), now());
+insert into ms_properties (propertyid, application, profile, "label", "key", value, description, createddate, updateddate) values (8, 'account-service', 'default', 'master', 'spring.jpa.properties.hibernate.dialect', 'org.hibernate.dialect.PostgreSQLDialect', null, now(), now());
+insert into ms_properties (propertyid, application, profile, "label", "key", value, description, createddate, updateddate) values (9, 'account-service', 'default', 'master', 'spring.jpa.properties.hibernate.default_schema', 'myblog', null, now(), now());
+insert into ms_properties (propertyid, application, profile, "label", "key", value, description, createddate, updateddate) values (10, 'account-service', 'default', 'master', 'spring.jpa.hibernate.ddl-auto', 'validate', null, now(), now());
+insert into ms_properties (propertyid, application, profile, "label", "key", value, description, createddate, updateddate) values (11, 'account-service', 'default', 'master', 'spring.jpa.show-sql', 'false', null, now(), now());
+insert into ms_properties (propertyid, application, profile, "label", "key", value, description, createddate, updateddate) values (12, 'account-service', 'default', 'master', 'spring.jpa.open-in-view', 'false', null, now(), now());
