@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b6af2a2-03df-44ba-a205-e7bff6d62f49" name="Changes" comment="resolve duplicate dependence">
+    <list default="true" id="5b6af2a2-03df-44ba-a205-e7bff6d62f49" name="Changes" comment="add file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +20,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../blog-gateway-service" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../blog-cloud-config" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -60,7 +60,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;5fdb1f6454aeb36b3e2679e2929bd7aa&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -139,7 +139,18 @@
       <workItem from="1694490898798" duration="3416000" />
       <workItem from="1694494339038" duration="697000" />
       <workItem from="1694499168321" duration="1763000" />
+      <workItem from="1694702311559" duration="380000" />
+      <workItem from="1694703503670" duration="52000" />
+      <workItem from="1694703580889" duration="256000" />
     </task>
+    <task id="LOCAL-00001" summary="add file">
+      <created>1694702478069</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694702478069</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,9 +171,7 @@
                 <map>
                   <entry key="roots">
                     <value>
-                      <list>
-                        <option value="$PROJECT_DIR$" />
-                      </list>
+                      <list />
                     </value>
                   </entry>
                 </map>
@@ -199,5 +208,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add file" />
+    <option name="LAST_COMMIT_MESSAGE" value="add file" />
   </component>
 </project>
