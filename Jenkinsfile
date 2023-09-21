@@ -6,6 +6,13 @@ pipeline {
 
     stages {
         stage("Proto Build") {
+            agent {
+                docker {
+                    image 'maven:3.6.3-jdk-11'
+                    args '-v /root/.m2:/root/.m2'
+                    reuseNode true
+                }
+            }
             steps {
                 dir("account-grpc"){
                      sh 'mvn -s /home/jenkins/.m2/settings.xml -U clean install deploy -Dmaven.test.skip=true'
@@ -13,6 +20,13 @@ pipeline {
             }
         }
         stage("Maven Build") {
+            agent {
+                docker {
+                    image 'maven:3.6.3-jdk-11'
+                    args '-v /root/.m2:/root/.m2'
+                    reuseNode true
+                }
+            }
             steps {
                 dir("account-service"){
                      sh 'mvn -s /home/jenkins/.m2/settings.xml -U clean install -Dmaven.test.skip=true -P server'
